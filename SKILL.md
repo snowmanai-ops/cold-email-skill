@@ -1,6 +1,6 @@
 ---
 name: cold-email
-description: Write high-converting cold emails, define ideal client profiles (ICP), craft subject lines, openers, CTAs, personalization strategies, case study integration, and follow-up sequences. Use when the user asks to write cold emails, create cold outreach campaigns, build email sequences, define their ICP, personalize emails at scale, write follow-up emails, improve cold email copy, or create email templates for outbound sales.
+description: Write high-converting cold emails using proven copywriting frameworks (AIDA, PAS, BAB, and more). Covers ICP definition, subject lines, openers, CTAs, personalization at scale, case study integration, follow-up sequences, and opt-out compliance. Use when the user asks to write cold emails, create cold outreach campaigns, build email sequences, define their ICP, personalize emails at scale, write follow-up emails, improve cold email copy, or create email templates for outbound sales.
 ---
 
 # Cold Email
@@ -61,21 +61,60 @@ Ask the user what token format their email platform uses if unclear.
 
 For detailed niche-specific examples with multiple variations, see [references/personalization-examples.md](references/personalization-examples.md).
 
+## Email Frameworks
+
+Choose a framework based on the offer type and what you know about the prospect. When the user doesn't specify, default to **Standard** for simple offers or **Straight to Value** for offers with a performance guarantee.
+
+For complete templates with token placeholders, see [references/email-frameworks.md](references/email-frameworks.md).
+
+| Framework | Best for |
+|-----------|----------|
+| **Standard** | Most cold emails — simple, direct, proven |
+| **SaaS Outreach** | Software products with quantifiable time/money benefit |
+| **AIDA** | When you can reference a specific achievement or recent activity |
+| **PAS** | When the prospect has a clear, known pain point |
+| **BAB** | When you can paint a vivid before/after contrast |
+| **Straight to Value + Guarantee** | Strong case study + performance guarantee |
+| **High-Ticket Outreach** | Done-for-you services with pay-on-results models |
+| **Results-Driven** | Lead gen or appointment-setting services |
+| **Free Resource (Two-Step)** | Building trust first — offer a lead magnet, sell on the reply |
+| **Feedback Request** | Early-stage offers needing market validation |
+| **Quick Win** | Marketing/agency — reference specific prospect content |
+| **Problem-Consequence-Solution** | Pain point with clear downstream consequences |
+| **Curiosity** | Unknown prospect situation — open a conversation |
+| **Video CTA** | High-value prospects — personalized touch |
+
 ## Subject Lines
 
-Goal: Sell the open and pique curiosity. Keep them short.
+Goal: Sell the open and pique curiosity. Keep them short. Don't overthink testing — pick ones that feel natural and rotate through them.
 
-**Templates:**
+**Curiosity / Casual:**
 1. `Quick question`
-2. `Thoughts, {{firstName}}?`
-3. `Question for {{firstName}}`
-4. `{{companyName}} <> [Your Company] - Intro`
-5. `{{firstName}} // [Your Name] - Intro`
-6. `Question about {{companyName}}`
-7. `Increased conversions for {{companyName}}`
-8. `More sales calls for {{companyName}}`
-9. `[Specific result] or you don't pay`
-10. `[Percentage] more [outcome], guaranteed`
+2. `Quick question {{firstName}}`
+3. `Thoughts, {{firstName}}?`
+4. `Is that true {{firstName}}?`
+5. `Why not {{firstName}}?`
+6. `Would this help?`
+7. `Hey got a sec?`
+8. `quick heads up`
+9. `super quick`
+10. `How about this?`
+11. `do you mind {{firstName}}`
+12. `I was wondering {{firstName}}...`
+13. `possible partnership?`
+14. `Meet {{caseStudyFirstName}}`
+
+**Company-specific:**
+15. `{{firstName}} <> {{senderFirstName}}`
+16. `{{companyName}} <> [Your Company] - Intro`
+17. `{{firstName}} // [Your Name] - Intro`
+18. `Question about {{companyName}}`
+19. `Regarding {{companyName}}`
+20. `Saw this about {{companyName}}...`
+21. `Increased conversions for {{companyName}}`
+22. `More sales calls for {{companyName}}`
+23. `[Specific result] or you don't pay`
+24. `[Percentage] more [outcome], guaranteed`
 
 ## Email Openers
 
@@ -166,6 +205,8 @@ For a complete worked example with all email variations, see [references/follow-
 ## Reference Files
 
 Load these as needed based on what the user is working on:
+
+- **[references/email-frameworks.md](references/email-frameworks.md)** — Load when writing a cold email using a specific framework. Contains 14 complete email templates (Standard, SaaS, AIDA, PAS, BAB, Straight to Value, High-Ticket, Results-Driven, Free Resource, Feedback Request, Quick Win, Problem-Consequence-Solution, Curiosity, Video CTA) with token placeholders and formulas.
 
 - **[references/icp-definition.md](references/icp-definition.md)** — Load when the user needs help defining their Ideal Client Profile, building lead lists, choosing lead-building tools (ListKit, Apollo, Sales Navigator), or answering ICP homework questions. Contains company/people filtering mechanisms, research strategies, and verification tools.
 
